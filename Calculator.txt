@@ -1,0 +1,7 @@
+def calculate(expression):
+
+    return eval(expression)
+
+expression = input("¬ведите выражение: ")
+result = calculate(expression)
+print(f"{result}")
